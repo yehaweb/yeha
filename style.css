@@ -1,0 +1,158 @@
+html {
+  scroll-behavior: smooth;
+  border: 5px solid black;
+}
+
+button {
+  background-color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:large;
+  border: hidden;
+  margin-left: 1300px;
+  text-align: center;
+   background: transparent;
+    position:relative;
+    cursor: pointer;
+   
+}
+#yd {
+  display: inline-block;
+  display: flex;
+}
+span {
+    background: blue;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 25px;
+    z-index: -1;
+    transition: 0.5s;
+    display: inline-block;
+}
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
+#jk {
+  text-align: center;
+  font-size: xx-large;
+
+}
+#kj {
+  margin-left: 480px;
+  font-family:initial;
+}
+#ui {
+  border-radius: 100px;
+  align-items: center;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+#ma {
+  border: 3px solid blue;
+  border-radius: 25px;
+  width: 250px;
+  margin-left: 580px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+#mm {
+   width: 700px;
+  margin-top: 50px;
+  border-radius: 50px;
+}
+a {
+    background-color: blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:large;
+  border: 2px solid rgb(114, 57, 114);
+  border-radius: 25px;
+  text-align: center;
+  border: hidden;
+  margin-left: 50px;
+  text-align: center;
+   background: transparent;
+    position:relative;
+    cursor: pointer;
+}
+#ol {
+  margin-left: 1000px;
+  color: black;
+}
+#ok {
+  margin-top: -300px;
+  margin-left: 900px;
+  cursor: pointer;
+}
+#ko {
+  margin-left: 1010px;
+  color: red;
+ touch-action: double-tap-zoom;
+ cursor: pointer;
+ border: 5px solid blue;
+ width: 105px;
+ 
+ z-index: -1;
+}
+#ioc {
+  margin-top: 300px;
+  border: 10px solid rgb(0, 0, 3);
+  height: 700px;
+  background-color: rgb(4, 4, 180);
+  text-align: center;
+  color: white;
+  font-family: cursive;
+  cursor: pointer;
+}
+#jk {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#git {
+  border: 10px solid white;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: -200px;
+  margin-left: 200px;
+  width: 1000px;
+  height: 300px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  cursor: pointer;
+}
+#cc {
+  margin-left: 400px;
+  margin-right: -500px;
+  text-align: center;
+  color: red;
+}
+#mj {
+  border: 10px solid rgb(1, 2, 42);
+  background-color: rgb(1, 2, 42);
+  border-radius: 25px;
+  width: 1100px;
+  height: 100px;
+  margin-left: 140px;
+  margin-top: -50px;
+}
+#er {
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#v {
+  width: 90px;
+  border-radius: 25px;
+  margin-left: 990px;
+  margin-top: -200px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+#go {
+  margin-bottom: 70px;
+  margin-left: 100px;
+  cursor: pointer;
+}
